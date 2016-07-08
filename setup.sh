@@ -12,3 +12,4 @@ echo "source $VIRTUAL_ENV/bin/git-completion.bash" >> activate
 echo "source $VIRTUAL_ENV/bin/bash-prompt.sh" >> activate
 echo "export JUPYTER_CONFIG_DIR=$VIRTUAL_ENV/jupyter_profile" >> activate
 
+# TODO(tpaine) setup pre-commit hooks with yapf and isort.
