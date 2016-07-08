@@ -6,7 +6,7 @@ wget https://gist.githubusercontent.com/miki725/9783474/raw/70a2da69bdfe4ceadac4
     -O bash-prompt.sh
 mkdir ../jupyter_profile
 wget https://raw.githubusercontent.com/tomlepaine/Virtualenv-setup/master/jupyter_notebook_config.py \
-    -O ./jupyter_profile/jupyter_notebook_config.py
+    -O ../jupyter_profile/jupyter_notebook_config.py
 
 echo "source $VIRTUAL_ENV/bin/git-completion.bash" >> activate
 echo "source $VIRTUAL_ENV/bin/bash-prompt.sh" >> activate
