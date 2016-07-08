@@ -1,5 +1,7 @@
 # Configuration file for jupyter-notebook.
 
+# Config file hooks from: http://jupyter-notebook.readthedocs.io/en/latest/extending/savehooks.html
+
 # Scrub output - pre save
 def scrub_output_pre_save(model, **kwargs):
     """scrub output before saving notebooks"""
