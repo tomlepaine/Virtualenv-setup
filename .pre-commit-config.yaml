@@ -1,0 +1,9 @@
+- repo: git://github.com/FalconSocial/pre-commit-python-sorter
+  sha: 1.0.1
+  hooks:
+  - id: python-import-sorter
+    args: ['--silent-overwrite']
+- repo: git://github.com/pre-commit/mirrors-yapf
+  sha: v0.8.2
+  hooks:
+  - id: yapf
