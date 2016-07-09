@@ -16,4 +16,6 @@ wget https://raw.githubusercontent.com/tomlepaine/Virtualenv-setup/master/jupyte
     -O ../jupyter_profile/jupyter_notebook_config.py
 echo "export JUPYTER_CONFIG_DIR=$VIRTUAL_ENV/jupyter_profile" >> activate
 
-# TODO(tpaine) Setup pre-commit hooks with yapf and isort.
+# Setup pre-commit hooks with yapf and isort.
+wget https://raw.githubusercontent.com/tomlepaine/Virtualenv-setup/master/.pre-commit-config.yaml
+echo "alias pre-commit-setup='cp $VIRTUAL_ENV/bin/.pre-commit-config.yaml . && pre-commit install'"
