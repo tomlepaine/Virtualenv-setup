@@ -4,7 +4,7 @@ Some helper files to setup virtualenv the way I like.
 ## Usage
 To use, run:
 ```bash
-cd <virtual-env>/bin/
+cd $VIRTUAL_ENV/bin/
 wget https://raw.githubusercontent.com/tomlepaine/Virtualenv-setup/master/setup.sh
 chmod 777 setup.sh
 ./setup.sh
