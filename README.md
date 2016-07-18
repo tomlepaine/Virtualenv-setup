@@ -19,3 +19,5 @@ pre-commit-setup
 - git
 - jupyter
 - pre-commit
+- yapf
+- isort
